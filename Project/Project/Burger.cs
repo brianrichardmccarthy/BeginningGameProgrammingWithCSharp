@@ -32,6 +32,9 @@ namespace GameProject
         // sound effect
         SoundEffect shootSound;
 
+        // click processing
+        bool leftButtonReleased = true;
+
         #endregion
 
         #region Constructors
@@ -96,6 +99,14 @@ namespace GameProject
                 // timer concept (for animations) introduced in Chapter 7
 
                 // shoot if appropriate
+                // frenchfries public Projectile(ProjectileType type, Texture2D sprite, int x, int y, float yVelocity)
+                if ( mouse.LeftButton == ButtonState.Pressed &&
+                    leftButtonReleased ) {
+                    leftButtonReleased = false;
+                    Game1.AddProjectile(new Projectile(ProjectileType.FrenchFries, Game1.GetProjectileSprite(ProjectileType.FrenchFries), drawRectangle.X, drawRectangle.Y, GameConstants.TeddyBearProjectileSpeed));
+                } else if ( mouse.LeftButton == ButtonState.Released ) {
+                    leftButtonReleased = true;
+                }
             }
 
         }

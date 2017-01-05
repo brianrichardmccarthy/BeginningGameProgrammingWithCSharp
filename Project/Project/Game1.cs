@@ -88,6 +88,8 @@ namespace GameProject
             // load sprite font
 
             // load projectile and explosion sprites
+            teddyBearProjectileSprite = Content.Load<Texture2D>(@"graphics\teddybearprojectile");
+            frenchFriesSprite = Content.Load<Texture2D>(@"graphics\frenchfries");
 
             // add initial game objects
 
@@ -198,7 +200,7 @@ namespace GameProject
         public static Texture2D GetProjectileSprite(ProjectileType type)
         {
             // replace with code to return correct projectile sprite based on projectile type
-            return frenchFriesSprite;
+            return (type == ProjectileType.FrenchFries) ? frenchFriesSprite : teddyBearProjectileSprite;
         }
 
         /// <summary>
@@ -207,7 +209,7 @@ namespace GameProject
         /// <param name="projectile">the projectile to add</param>
         public static void AddProjectile(Projectile projectile)
         {
-
+            projectiles.Add(projectile);
         }
 
         #endregion

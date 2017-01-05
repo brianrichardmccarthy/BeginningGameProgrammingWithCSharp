@@ -25,3 +25,5 @@ C:\Users\Brian\Documents\Projects\Csharp\BeginningGameProgrammingWithC#\Project\
 C:\Users\Brian\Documents\Projects\Csharp\BeginningGameProgrammingWithC#\Project\Project\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
 C:\Users\Brian\Documents\Projects\Csharp\BeginningGameProgrammingWithC#\Project\Project\obj\x86\Debug\Project.exe
 C:\Users\Brian\Documents\Projects\Csharp\BeginningGameProgrammingWithC#\Project\Project\obj\x86\Debug\Project.pdb
+C:\Users\Brian\Documents\Projects\Csharp\BeginningGameProgrammingWithC#\Project\Project\bin\Windows\x86\Debug\Content\graphics\frenchfries.xnb
+C:\Users\Brian\Documents\Projects\Csharp\BeginningGameProgrammingWithC#\Project\Project\bin\Windows\x86\Debug\Content\graphics\teddybearprojectile.xnb
