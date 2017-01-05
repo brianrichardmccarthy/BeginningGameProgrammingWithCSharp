@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Brian/Documents/Projects/Csharp/BeginningGameProgrammingWithC#/ProgrammingAssignment4/PrgrammingAssignment4Content/graphics/pickup.png</File>
+    <File>C:/Users/Brian/Documents/Projects/Csharp/BeginningGameProgrammingWithC#/ProgrammingAssignment4/PrgrammingAssignment4Content/graphics/teddybear.png</File>
+  </SourceFiles>
+</SourceFileCollection>
